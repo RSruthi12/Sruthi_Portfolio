@@ -37,6 +37,14 @@
     header p {
       font-size: 1.2rem;
     }
+    header a {
+      color: white !important;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
     .section {
       padding: 2rem 1rem;
       max-width: 1000px;
@@ -68,8 +76,16 @@
       text-align: center;
       padding: 1rem;
     }
-    a {
-      color: var(--accent);
+    nav a {
+      color: #007aff;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    body.dark-mode nav a {
+      color: #66b2ff;
     }
     .dark-toggle {
       position: fixed;
